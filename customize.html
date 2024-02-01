@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize</title>
+    <link rel="stylesheet" href="mp.css">
+</head>
+<body>
+    <header>
+        <img src="yot.png" class="img">
+        <table>
+            <tr>
+                <td ><a href="mp.html" class="id1">welcome to our web site</a></td>
+                <td><div><a href="home.html" class="id1">Home</a></div></td>
+                <td><div><a href="bracelets.html" class="id1">Shop</a></div></td>
+                <td><div><a href="customize.html" class="id1">Customize</a></div></td>
+            </tr>
+        </table>
+    </header>
+    <form action="">
+        <h2>Let's start</h2>
+        <em>If you have a model you can upload it here </em>
+        <input type="file">
+        <br>
+        <br><em>Choose the type of your bracelet</em>
+        <select >
+            <option selected >Normal</option>
+            <option >Alpha</option>
+        </select>
+        <br>
+        <br><em>Choose the number of threds (the price will increase with the number )</em>
+        <input type="number" min="4">
+        <br>
+        <br><em>Choose the number of colors</em>
+        <input type="number" min="1">
+        <br>
+        <br><em>Choose the first color </em>
+        <input type="color">
+        <br>
+        <br><em>Choose the second color </em>
+        <input type="color">
+        <br>
+        <br><em>Choose the third color </em>
+        <input type="color">
+        <br>
+        <br><em>You can add a description</em>
+        <br>
+        <br><textarea  cols="40" rows="5"></textarea>
+        <br>
+        <br><em>Write your email (we will answer by email)</em>
+        <input type="email" placeholder="@gmail.com" pattern=".+@gmail.com" required>
+        <br>
+        <br><em>Write your phone number </em>
+        <input type="tel" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}" placeholder="99-999-999">
+        <br>
+        <br><input type="submit"  value="Send" class="bt">
+    </form>
+    <script src="mp.js"></script>
+</body>
+</html>

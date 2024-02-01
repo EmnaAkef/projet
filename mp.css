@@ -1,0 +1,87 @@
+.c1{
+    background-image: url(f1.png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+.img{
+    height: 150px ; 
+    width: 150px ;
+    margin-left: -130px;
+}
+.c2{
+   background: linear-gradient(white,rgb(213,180,185));
+   position: absolute;
+   margin-top: 120px;
+   text-align: center;
+   font-weight: bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 50px;
+   padding-right: 40px;
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+   width: 75%;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(213, 180, 185);
+}
+.id1{
+    color: black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+td{
+    margin-top: 60px;
+    padding-left: 80px;
+   padding-right: 80px;
+   font-weight: bold;
+}
+table{
+    margin-left: -450px;
+}
+a:hover{color: white;}
+.c3{
+    background-image: url(HAPPiness\ is\ handmade.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.insta{
+    width: 120px;
+    height: 120px;
+    margin-top: 450px;
+}
+b{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.bb{
+    transform: translate(120px,-85px);
+}
+em{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    
+}
+body{
+    background: linear-gradient(white,rgb(213,180,185));
+}
+pre{
+    font-size: large;
+}
+.bt{
+    transform: translate(700px,4px);
+    width: 50px;
+    height: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
